@@ -1,0 +1,31 @@
+{
+  "name": "Backend-Initiative-Project",
+  "version": "1.0.0",
+  "description": "This is a base repository for the backend initiative project",
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon -r esm src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onyimatics/Backend-Initiative-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onyimatics/Backend-Initiative-Project/issues"
+  },
+  "homepage": "https://github.com/Onyimatics/Backend-Initiative-Project#readme"
+}
